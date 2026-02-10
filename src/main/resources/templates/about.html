@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+<head>
+    <title>About - Smart Contact Manager</title>
+</head>
+<body>
+    <div id="content">
+        <!-- Hero Section (unchanged) -->
+        <section class="bg-gray-50 dark:bg-gray-900">
+            <div class="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    Revolutionizing Contact Management
+                </h1>
+                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
+                    Smart Contact Manager helps individuals and businesses organize contacts efficiently with cutting-edge features.
+                </p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                    <a data-th-href="@{'/register'}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        Get Started
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                    <a data-th-href="@{'/services'}" class="inline-flex justify-center items-center py-3 px-5 sm:ml-4 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                        <i class="fas fa-bolt mr-2"></i>
+                        Services
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Grid with Green Containers -->
+        <section class="bg-white dark:bg-gray-900 transition-colors duration-300">
+          <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+              <div class="max-w-screen-md mb-8 lg:mb-16 mx-auto text-center">
+                  <h2 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white transition-colors duration-300">
+                      Designed for modern contact management
+                  </h2>
+                  <p class="text-gray-500 sm:text-xl dark:text-gray-400 transition-colors duration-300">
+                      Our platform combines powerful features with intuitive design to transform how you manage relationships.
+                  </p>
+              </div>
+              <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                  <!-- Feature 1 - Green Container -->
+                  <div class="bg-green-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-green-500 transition-all duration-300">
+                      <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-green-100 dark:bg-gray-700 lg:h-12 lg:w-12 transition-colors duration-300">
+                          <i class="fas fa-tags text-green-600 dark:text-green-400 text-xl"></i>
+                      </div>
+                      <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white transition-colors duration-300">Smart Tagging</h3>
+                      <p class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
+                          Automatically categorize contacts with custom tags and smart suggestions.
+                      </p>
+                  </div>
+                  
+                  <!-- Feature 2 - Green Container -->
+                  <div class="bg-green-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-green-500 transition-all duration-300">
+                      <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-green-100 dark:bg-gray-700 lg:h-12 lg:w-12 transition-colors duration-300">
+                          <i class="fas fa-shield-alt text-green-600 dark:text-green-400 text-xl"></i>
+                      </div>
+                      <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white transition-colors duration-300">Bank-Grade Security</h3>
+                      <p class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
+                          AES-256 encryption keeps your contact data safe from unauthorized access.
+                      </p>
+                  </div>
+                  
+                  <!-- Feature 3 - Green Container -->
+                  <div class="bg-green-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-green-500 transition-all duration-300">
+                      <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-green-100 dark:bg-gray-700 lg:h-12 lg:w-12 transition-colors duration-300">
+                          <i class="fas fa-sync-alt text-green-600 dark:text-green-400 text-xl"></i>
+                      </div>
+                      <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white transition-colors duration-300">Real-Time Sync</h3>
+                      <p class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
+                          Changes update instantly across all your devices with our cloud sync.
+                      </p>
+                  </div>
+                  
+                  <!-- Feature 4 - Green Container -->
+                  <div class="bg-green-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-green-500 transition-all duration-300">
+                      <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-green-100 dark:bg-gray-700 lg:h-12 lg:w-12 transition-colors duration-300">
+                          <i class="fas fa-chart-line text-green-600 dark:text-green-400 text-xl"></i>
+                      </div>
+                      <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white transition-colors duration-300">Interaction Analytics</h3>
+                      <p class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
+                          Track communication patterns and relationship strength over time.
+                      </p>
+                  </div>
+                  
+                  <!-- Feature 5 - Green Container -->
+                  <div class="bg-green-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-green-500 transition-all duration-300">
+                      <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-green-100 dark:bg-gray-700 lg:h-12 lg:w-12 transition-colors duration-300">
+                          <i class="fas fa-robot text-green-600 dark:text-green-400 text-xl"></i>
+                      </div>
+                      <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white transition-colors duration-300">AI Assistant</h3>
+                      <p class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
+                          Get smart suggestions for follow-ups and relationship nurturing.
+                      </p>
+                  </div>
+                  
+                  <!-- Feature 6 - Green Container -->
+                  <div class="bg-green-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-green-500 transition-all duration-300">
+                      <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-green-100 dark:bg-gray-700 lg:h-12 lg:w-12 transition-colors duration-300">
+                          <i class="fas fa-plug text-green-600 dark:text-green-400 text-xl"></i>
+                      </div>
+                      <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white transition-colors duration-300">API Integrations</h3>
+                      <p class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
+                          Connect with CRM, email, and productivity tools you already use.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+        <!-- Stats Section (unchanged) -->
+        <section class="bg-gray-50 dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+                        Trusted by professionals worldwide
+                    </h2>
+                </div>
+                <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-4 lg:grid-cols-4 dark:text-gray-400">
+                    <div class="flex flex-col items-center justify-center">
+                        <p class="mb-2 text-3xl font-extrabold text-gray-900 dark:text-white">25K+</p>
+                        <p class="font-light">Active Users</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <p class="mb-2 text-3xl font-extrabold text-gray-900 dark:text-white">1M+</p>
+                        <p class="font-light">Contacts Managed</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <p class="mb-2 text-3xl font-extrabold text-gray-900 dark:text-white">99.9%</p>
+                        <p class="font-light">Uptime</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <p class="mb-2 text-3xl font-extrabold text-gray-900 dark:text-white">24/7</p>
+                        <p class="font-light">Support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section (unchanged) -->
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                <div class="mx-auto max-w-screen-md text-center">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+                        Ready to transform your contact management?
+                    </h2>
+                    <p class="mb-8 text-gray-500 sm:text-xl dark:text-gray-400">
+                        Join thousands of professionals who trust Smart Contact Manager for their relationship management needs.
+                    </p>
+                    <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                        <a data-th-href="@{'/register'}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            Get Started for Free
+                        </a>
+                        <a data-th-href="@{'/contact'}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                            <i class="fas fa-envelope mr-2"></i>
+                            Contact Sales
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script th:inline="javascript">
+        /*<![CDATA[*/
+        document.addEventListener('DOMContentLoaded', function() {
+            // Highlight the active nav item
+            const currentPage = window.location.pathname.split('/').pop() || 'home';
+            document.querySelectorAll('nav a').forEach(link => {
+                const linkPage = link.getAttribute('href').split('/').pop();
+                if (linkPage === currentPage) {
+                    link.classList.add('text-blue-700', 'dark:text-blue-500');
+                    link.classList.remove('text-gray-900', 'dark:text-white');
+                }
+            });
+
+            // Initialize any Flowbite components
+            if (typeof Flowbite !== 'undefined') {
+                // Initialize tooltips if needed
+                // new Flowbite.Tooltip();
+            }
+        });
+        /*]]>*/
+    </script>
+</body>
+</html>

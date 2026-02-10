@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+    <title th:text="${loggedInUser != null ? loggedInUser.name + ' | Dashboard' : 'Dashboard'}">
+        Dashboard
+    </title>
+</head>
+<body>
+    <div id="content">
+        <!-- sidebar -->
+        <div th:if="${loggedInUser}">
+            <div data-th-replace="~{user/sidebar :: sidebar}"></div>
+        </div>
+
+        <div class="sm:pl-64 pt-20 dark:bg-gray-900" style="height: 1000px">
+            <div class="flex justify-center flex-col items-center">
+                <h1 class="text-5xl mt-10 dark:text-white">Welcome to dashboard page</h1>
+                <p class="dark:text-gray-300">Welcome back! Here's a quick overview of your contacts.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 my-8">
+                <!-- Total Contacts -->
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow dark:shadow-gray-700 p-4 flex items-center gap-4">
+                    <div class="bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 p-3 rounded-full">
+                        <i class="fas fa-users text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold dark:text-white">42</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">Total Contacts</p>
+                    </div>
+                </div>
+            
+                <!-- Favorite Contacts -->
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow dark:shadow-gray-700 p-4 flex items-center gap-4">
+                    <div class="bg-yellow-100 dark:bg-yellow-900 text-yellow-600 dark:text-yellow-300 p-3 rounded-full">
+                        <i class="fas fa-star text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold dark:text-white">12</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">Favorites</p>
+                    </div>
+                </div>
+            
+                <!-- With Website -->
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow dark:shadow-gray-700 p-4 flex items-center gap-4">
+                    <div class="bg-indigo-100 dark:bg-indigo-900 text-indigo-600 dark:text-indigo-300 p-3 rounded-full">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold dark:text-white">18</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">With LinkedIn</p>
+                    </div>
+                </div>
+            
+                <!-- Unique Emails -->
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow dark:shadow-gray-700 p-4 flex items-center gap-4">
+                    <div class="bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-300 p-3 rounded-full">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold dark:text-white">40</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">Unique Emails</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pie Chart -->
+            <div class="w-full mt-10 p-5 bg-white dark:bg-gray-800 rounded-xl shadow-md dark:shadow-gray-700">
+                <h2 class="text-xl font-bold text-center mb-4 dark:text-white">Contact Distribution</h2>
+                <div class="mx-auto" style="width: 450px; height: 450px;">
+                    <canvas id="contactChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script data-th-src="@{'/js/dashboard.js'}"></script>
+</body>
+</html>

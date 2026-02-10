@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+  <title>Home page</title>
+</head>
+<body>
+<div id="content" class="border">
+  <!-- Banner Section -->
+  <section class="bg-blue-600 dark:bg-blue-900 text-white py-20 animate__animated animate__fadeInDown">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4 dark:text-white">Welcome to Contact Manager</h2>
+      <p class="text-lg mb-8 dark:text-gray-200">Manage your all contacts in one place.</p>
+      <a href="http://localhost:3005/login"
+         class="bg-white dark:bg-gray-100 text-blue-600 dark:text-blue-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 dark:hover:bg-gray-200 transition duration-300">
+        Get Started
+      </a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20 bg-gray-50 dark:bg-gray-800">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <span class="text-blue-600 dark:text-blue-400 font-bold mb-2 inline-block">POWERFUL FEATURES</span>
+        <h2 class="text-4xl font-bold mb-4 dark:text-white">Everything You Need in One Place</h2>
+        <p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          Designed to simplify your contact management while providing enterprise-grade security
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 mt-10 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Feature 1 -->
+        <div class="bg-white dark:bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group border border-gray-100 dark:border-gray-600 hover:border-blue-100 dark:hover:border-blue-400">
+          <div class="w-16 h-16 bg-blue-50 dark:bg-blue-900/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-100 dark:group-hover:bg-blue-800/30 transition-colors duration-300">
+            <i class="fas fa-address-book text-blue-600 dark:text-blue-400 text-2xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3 dark:text-white">Smart Organization</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-4">
+            Automatically categorize contacts with AI-powered tagging and customizable fields.
+          </p>
+          <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>Smart contact grouping</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>Duplicate detection</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>Bulk editing tools</span>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="bg-white dark:bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group border border-gray-100 dark:border-gray-600 hover:border-blue-100 dark:hover:border-blue-400">
+          <div class="w-16 h-16 bg-blue-50 dark:bg-blue-900/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-100 dark:group-hover:bg-blue-800/30 transition-colors duration-300">
+            <i class="fas fa-shield-alt text-blue-600 dark:text-blue-400 text-2xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3 dark:text-white">Military-Grade Security</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-4">
+            Your data is protected with AES-256 encryption and multi-factor authentication.
+          </p>
+          <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>End-to-end encryption</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>GDPR compliance</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>Regular security audits</span>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="bg-white dark:bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group border border-gray-100 dark:border-gray-600 hover:border-blue-100 dark:hover:border-blue-400">
+          <div class="w-16 h-16 bg-blue-50 dark:bg-blue-900/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-100 dark:group-hover:bg-blue-800/30 transition-colors duration-300">
+            <i class="fas fa-mobile-alt text-blue-600 dark:text-blue-400 text-2xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3 dark:text-white">Cross-Platform Access</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-4">
+            Full functionality on all your devices with real-time synchronization.
+          </p>
+          <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>Web, iOS & Android apps</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>Instant sync across devices</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-green-500 dark:text-green-400 mt-1 mr-2"></i>
+              <span>Offline mode available</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="bg-blue-600 dark:bg-blue-900 text-white py-20 animate__animated animate__fadeInUp">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4 dark:text-white">Ready to Manage Your Contacts?</h2>
+      <p class="text-lg mb-8 dark:text-gray-200">Sign up today and experience the easiest way to manage your contacts.</p>
+      <a href="http://localhost:3005/register"
+         class="bg-white dark:bg-gray-100 text-blue-600 dark:text-blue-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 dark:hover:bg-gray-200 transition duration-300">
+        Create an Account
+      </a>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 bg-white dark:bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp dark:text-white">What Our Users Say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-6 bg-gray-100 dark:bg-gray-700 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <p class="text-gray-600 dark:text-gray-300 italic">"Contact Manager has changed the way I organize my contacts. It's
+            fast, secure, and incredibly easy to use!"</p>
+          <h4 class="text-lg font-semibold mt-4 dark:text-white">- Adarsh Anand</h4>
+        </div>
+        <div class="p-6 bg-gray-100 dark:bg-gray-700 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <p class="text-gray-600 dark:text-gray-300 italic">"A fantastic app with great features! I love the 24/7 access and
+            secure storage options."</p>
+          <h4 class="text-lg font-semibold mt-4 dark:text-white">- Aman Anand</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 bg-gray-100 dark:bg-gray-700 animate__animated animate__fadeInUp">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 dark:text-white">Get in Touch</h2>
+      <form class="max-w-lg mx-auto">
+        <input type="text" placeholder="Your Name" 
+               class="w-full px-4 py-2 mb-4 border border-gray-300 dark:border-gray-600 rounded dark:bg-gray-800 dark:text-white">
+        <input type="email" placeholder="Your Email"
+               class="w-full px-4 py-2 mb-4 border border-gray-300 dark:border-gray-600 rounded dark:bg-gray-800 dark:text-white">
+        <textarea placeholder="Your Message"
+                  class="w-full px-4 py-2 mb-4 border border-gray-300 dark:border-gray-600 rounded dark:bg-gray-800 dark:text-white"></textarea>
+        <button type="submit"
+                class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded font-semibold transition duration-300 dark:bg-blue-700 dark:hover:bg-blue-800">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div>
+          <h3 class="text-xl font-bold mb-4">Contact Manager</h3>
+          <p class="text-gray-400">
+            The smartest way to organize, secure, and access your contacts anytime, anywhere.
+          </p>
+        </div>
+        <div>
+          <h4 class="font-bold mb-4">Product</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#" class="hover:text-white transition-colors">Features</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Pricing</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Integrations</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Updates</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold mb-4">Company</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold mb-4">Connect</h4>
+          <div class="flex space-x-4">
+            <a href="https://x.com/silent_boy_sp" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sunny-prakash-538a581a4/" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.facebook.com/s8jan" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/_sny_sp/" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+        <p>&copy; 2025 Contact Manager. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+<script>
+  console.log("Home page");
+</script>
+</body>
+</html>
