@@ -1,13 +1,11 @@
-
-<img width="1755" height="416" alt="Screenshot 2026-02-10 234739" src="https://github.com/user-attachments/assets/238f8216-7bcc-46a9-bef7-02ab19857a23" />
-<img width="925" height="618" alt="Screenshot 2026-02-10 233918" src="https://github.com/user-attachments/assets/8fe79d93-3e7a-41ee-9f96-a01d13b2cbc0" />
-<img width="1499" height="815" alt="Screenshot 2026-02-10 233902" src="https://github.com/user-attachments/assets/59331788-4d6d-40d1-a61d-d0fbf76eb4ba" />
-<img width="1907" height="662" alt="Screenshot 2026-02-10 233655" src="https://github.com/user-attachments/assets/fe8dbc2e-31a6-4324-90ad-83e711cd0939" />
-<img width="1268" height="450" alt="Screenshot 2026-02-10 232719" src="https://github.com/user-attachments/assets/2f10ea49-2359-4221-9c0a-4ca16f755ed7" />
-<img width="1860" height="877" alt="Screenshot 2026-02-10 232709" src="https://github.com/user-attachments/assets/b67fffd2-bb48-4ce0-ac42-da4ef8c3207a" />
-<img width="1893" height="735" alt="Screenshot 2026-02-10 232640" src="https://github.com/user-attachments/assets/9f333d3d-c72a-47e3-afce-50c8e278aed0" />
 <img width="1885" height="913" alt="Screenshot 2026-02-10 232621" src="https://github.com/user-attachments/assets/c573bd9f-2d47-4d83-b0b7-c8aa73eb37ee" />
-
+<img width="1893" height="735" alt="Screenshot 2026-02-10 232640" src="https://github.com/user-attachments/assets/9f333d3d-c72a-47e3-afce-50c8e278aed0" />
+<img width="1860" height="877" alt="Screenshot 2026-02-10 232709" src="https://github.com/user-attachments/assets/b67fffd2-bb48-4ce0-ac42-da4ef8c3207a" />
+<img width="1268" height="450" alt="Screenshot 2026-02-10 232719" src="https://github.com/user-attachments/assets/2f10ea49-2359-4221-9c0a-4ca16f755ed7" />
+<img width="1907" height="662" alt="Screenshot 2026-02-10 233655" src="https://github.com/user-attachments/assets/fe8dbc2e-31a6-4324-90ad-83e711cd0939" />
+<img width="1499" height="815" alt="Screenshot 2026-02-10 233902" src="https://github.com/user-attachments/assets/59331788-4d6d-40d1-a61d-d0fbf76eb4ba" />
+<img width="925" height="618" alt="Screenshot 2026-02-10 233918" src="https://github.com/user-attachments/assets/8fe79d93-3e7a-41ee-9f96-a01d13b2cbc0" />
+<img width="1755" height="416" alt="Screenshot 2026-02-10 234739" src="https://github.com/user-attachments/assets/238f8216-7bcc-46a9-bef7-02ab19857a23" />
 
 
 # 📇 Contact Manager Application
