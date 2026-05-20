@@ -6,6 +6,13 @@
 <img width="1499" height="815" alt="Screenshot 2026-02-10 233902" src="https://github.com/user-attachments/assets/59331788-4d6d-40d1-a61d-d0fbf76eb4ba" />
 <img width="925" height="618" alt="Screenshot 2026-02-10 233918" src="https://github.com/user-attachments/assets/8fe79d93-3e7a-41ee-9f96-a01d13b2cbc0" />
 <img width="1755" height="416" alt="Screenshot 2026-02-10 234739" src="https://github.com/user-attachments/assets/238f8216-7bcc-46a9-bef7-02ab19857a23" />
+-------------------------------------------------------------------
+
+<img width="1920" height="1080" alt="2529556" src="https://github.com/user-attachments/assets/8a67ef44-4f4b-43a7-bc3e-6daf1578fc05" />
+<img width="3245" height="1825" alt="wp5890055" src="https://github.com/user-attachments/assets/589c7fc0-d7ef-43f1-9834-3e553a8db434" />
+<img width="3840" height="2160" alt="1105586" src="https://github.com/user-attachments/assets/14481071-2401-4fd7-aa47-2f88a8e39364" />
+<img width="5100" height="3400" alt="589980-5100x3400-anarchy" src="https://github.com/user-attachments/assets/fb135be5-3acd-4212-8a33-4c54d2815ea4" />
+
 
 
 # 📇 Contact Manager Application
